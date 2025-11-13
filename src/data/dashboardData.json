@@ -1,0 +1,183 @@
+{
+  "techDebt": {
+    "MENA": {
+      "reductionAchieved": 29,
+      "status": "Completed",
+      "objectDecommission": {
+        "completed": 1884,
+        "total": 6434,
+        "percentage": 29.2
+      },
+      "unusedObjectsDecommissioning": {
+        "percentage": 100,
+        "status": "Complete"
+      },
+      "percentage": 100,
+      "completionYear": 2025
+    },
+    "LATAM": {
+      "reductionAchieved": 18,
+      "status": "In Progress",
+      "objectDecommission": {
+        "completed": 0,
+        "total": 5000,
+        "percentage": 0
+      },
+      "unusedObjectsDecommissioning": {
+        "percentage": 0,
+        "status": "In Progress"
+      },
+      "percentage": 0,
+      "completionYear": 2026
+    },
+    "APAC": {
+      "reductionAchieved": 0,
+      "status": "Not Started",
+      "objectDecommission": {
+        "completed": 2250,
+        "total": 5000,
+        "percentage": 45
+      },
+      "unusedObjectsDecommissioning": {
+        "percentage": 75,
+        "status": "Not Started"
+      },
+      "percentage": 0,
+      "completionYear": 2027
+    }
+  },
+  "appRat": {
+    "totalSavings": 140000,
+    "sapMobilePlatform": {
+      "maintenanceBase": 665000,
+      "yearlyMaintenance": 115000,
+      "percentageValue": 17.29,
+      "decommissionedInstances": 4
+    },
+    "sapCEPortal": {
+      "computeCost": 25000,
+      "decommissionedInstances": 4
+    },
+    "licenseReduction": {
+      "savingsAmount": 30000,
+      "licensesReduced": 12
+    }
+  },
+  "aiIndex": {
+    "adoptionRate": 6.32,
+    "hoursSaved": 2000,
+    "dollarsSaved": 400000,
+    "useCases": 3
+  },
+  "vulnerabilities": {
+    "customCode": {
+      "detected": 12004,
+      "remediated": 9983,
+      "remaining": 2021
+    },
+    "sapPortal": {
+      "total": 142,
+      "remediated": 142,
+      "remaining": 0
+    }
+  },
+  "serviceScopes": {
+    "ytd": {
+      "ricefs": 2500,
+      "fioriApps": 236,
+      "retrofits": 4300,
+      "liveCompare": {
+        "count": 6000,
+        "type": "Executions"
+      }
+    },
+    "overall": {
+      "ricefs": 17000,
+      "fioriApps": 5200,
+      "retrofits": 28000,
+      "liveCompare": {
+        "count": 24000,
+        "type": "Executions"
+      }
+    }
+  },
+  "sqlOptimization": {
+    "queries": {
+      "analyzed": 30,
+      "dispositioned": 3,
+      "inProgress": 5,
+      "optimized": 22
+    },
+    "performance": {
+      "memoryReduction": {
+        "value": 0,
+        "unit": "GB"
+      },
+      "executionTimeReduction": {
+        "value": 144000,
+        "unit": "Seconds"
+      }
+    }
+  },
+  "operationMetrics": {
+    "created": 13287,
+    "active": 779,
+    "closed": 13275
+  },
+  "productRoadmap": {
+    "items": [
+		{ "name": "SAP Portal", "year": "2025", "type": "Upgrade" },
+		
+		{ "name": "SSAM", "year": "2026", "type": "Upgrade" },
+		{ "name": "Live Compare", "year": "2026", "type": "Upgrade" },
+		{ "name": "Data Masking", "year": "2026", "type": "Upgrade" },
+
+		{ "name": "Solution Manager", "year": "2027", "type": "Re-Platform" },
+		{ "name": "SAP Portal", "year": "2027", "type": "Re-Platform" },
+		{ "name": "Work Manager", "year": "2027", "type": "Re-Platform" },
+		{ "name": "SAP Gateway/Fiori", "year": "2027", "type": "Re-Platform" }
+    ],
+    "details": [
+      {
+        "goLive": "May 4th",
+        "scope": "Portal",
+        "region": "Americas",
+        "health": "Green",
+        "currentStatus": "Completed",
+        "overallSummary": "Portal Upgrade completed successfully"
+      },
+      {
+        "goLive": "May 10th",
+        "scope": "Portal",
+        "region": "Intl",
+        "health": "Green",
+        "currentStatus": "Completed",
+        "overallSummary": "Portal Upgrades completed successfully"
+      },
+      {
+        "goLive": "Q1 2026",
+        "scope": "SSAM",
+        "region": "FLNA/PBNA/UK",
+        "health": "Green",
+        "currentStatus": "Planning",
+        "overallSummary": "UK, PBNA & FLNA – Revised timelines are discussed and aligned with all DSO/PQGC teams. Planned TCO on Feb 14'26 for RoW and AMS on March 8th '26. H1D TCI notes to be done this week"
+      },
+      {
+        "goLive": "Q3 2026",
+        "scope": "Live Compare",
+        "region": "PGT/Pirt",
+        "health": "Green",
+        "currentStatus": "Planning",
+        "overallSummary": "2026 Release and Execution Planning in Progress"
+      },
+	  {
+        "goLive": "Q3 2026",
+        "scope": "Data Masking",
+        "region": "Americas/Intl",
+        "health": "Green",
+        "currentStatus": "Planning",
+        "overallSummary": "2026 Release and Execution Planning in Progress"
+      }
+    ]
+  }
+}
